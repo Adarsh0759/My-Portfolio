@@ -2,7 +2,8 @@
 .header{
     padding: 20px;
     width:100vw;
-    background-color: rgb(118, 225, 230);
+    background-color: rgb(53, 175, 241);
+    position:fixed;
 }
 
 .logo{
