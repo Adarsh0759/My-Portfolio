@@ -1,0 +1,144 @@
+.fa{
+    font-size: 16px;
+    width:30px;
+    text-align: center;
+    text-decoration: none;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+
+}
+
+.fa:hover{
+    opacity:0.7;
+
+}
+
+.fa-instagram{
+    background-color: blueviolet;
+    color:white
+}
+
+.fa-github{
+    background-color: rgb(13, 6, 214);
+    color:white;
+
+}
+
+.fa-linkedin{
+    background-color: rgb(24, 108, 226);
+    color:white;
+}
+
+.footer{
+    display:flex;
+    flex-direction: column;
+    width:100%
+}
+.footer1{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:rgb(228, 237, 242);
+    padding:100px 50px;
+    width:100%;
+    gap:40px;
+    height:fit-content;
+}
+.footer1 p{
+    width:30%;
+    font-size:1.5rem;
+    color:rgb(5, 17, 159);
+}
+.footer1 span{
+    color:rgb(136, 15, 104);
+}
+.footer1 h1{
+    width:30%;
+    font-size: 3.5rem;
+    color:rgb(81, 2, 60);
+    line-height: 3rem;
+}
+.footer2{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer2 .socialItem{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.footer .socialItem .footerlink{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: medium;
+}
+
+@media(max-width:1000px){
+    .footer1{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        background-color:rgb(228, 237, 242);
+        padding:100px 25px;
+        width:100%;
+        gap:40px;
+        height:fit-content;
+    }
+    .footer1 p{
+        width:30%;
+        font-size:1.4rem;
+        color:rgb(5, 17, 159);
+    }
+    .footer1 span{
+        color:rgb(136, 15, 104);
+    }
+    .footer1 h1{
+        width:30%;
+        font-size: 1.75rem;
+        color:rgb(81, 2, 60);
+        line-height: 3rem;
+    }
+
+}
+@media(max-width:700px){
+    .footer1{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        background-color:rgb(228, 237, 242);
+        padding:100px 20px;
+        width:100%;
+        gap:20px;
+        height:fit-content;
+    }
+    .footer1 p{
+        width:20%;
+        font-size:0.5rem;
+        color:rgb(5, 17, 159);
+    }
+    .footer1 span{
+        color:rgb(136, 15, 104);
+    }
+    .footer1 h1{
+        width:20%;
+        font-size: 1.5rem;
+        color:rgb(81, 2, 60);
+        line-height: 3rem;
+    }
+}
+@media(max-width:500px){
+    .footer1{
+        flex-direction:column-reverse;
+        text-align: center;
+    }
+
+    .footer h1,.footer1 p{
+        width:100%;
+    }
+}
